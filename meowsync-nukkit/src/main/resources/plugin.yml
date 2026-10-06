@@ -1,0 +1,16 @@
+name: MeowSync
+main: craft.meow.meowsync.nukkit.Main
+version: "1.0.0"
+author: Eison
+api: ["1.0.11"]
+load: POSTWORLD
+
+commands:
+  trs:
+    description: 连接至指定服务器（当服务器在线的情况下）
+    usage: "/trs [serverName]"
+
+permissions:
+  meowsync.command.trs:
+    description: 允许使用 /trs 连接服务器
+    default: true

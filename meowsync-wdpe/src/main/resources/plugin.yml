@@ -1,0 +1,4 @@
+name: MeowSync
+version: 1.0.0
+author: Eison
+main: craft.meow.meowsync.wdpe.Main
